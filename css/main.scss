@@ -1,51 +1,54 @@
-#bg {
-    width: 1400px;
-    height: 700px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+body {
     background-color: darksalmon;
-    margin: 0;
     overflow: hidden;
+}
+#bg {
+    // width: 1400px;
+    // height: 700px;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
 
     #spiner {
-        width: 600px;
+        width: 750px;
         height: 600px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: darkolivegreen;
-        box-sizing: border-box;
-        border: 1px solid white;
+        border: 2px solid white;
 
 
         .spinerCell {
-            width: 200px;
+            width: 250px;
             height: 200px;
             box-sizing: border-box;
             border: 1px solid white;
             position: absolute;
-            left: 50%;
+            background-image: url(../img/icons.png);
+            // background-size: ;
+            background-repeat: no-repeat;
         }
 
         #spinerCell1, #spinerCell2, #spinerCell3,
         #spinerCell4, #spinerCell5, #spinerCell6,
         #spinerCell7 {
-            transform: translateX(-300px);
+            left: 0px;
+            // background-position: -724px 20px;
         }
 
         #spinerCell8, #spinerCell9, #spinerCell10,
         #spinerCell11, #spinerCell12, #spinerCell13,
         #spinerCell14 {
-            transform: translateX(-100px);
+            left: 250px;
         }
 
         #spinerCell15, #spinerCell16, #spinerCell17,
         #spinerCell18, #spinerCell19, #spinerCell20,
         #spinerCell21 {
-            transform: translateX(100px);
+            left: 500px;
         }
     }
 }

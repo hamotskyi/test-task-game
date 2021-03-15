@@ -1,18 +1,10 @@
-#bg {
-  width: 1400px;
-  height: 700px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+body {
   background-color: darksalmon;
-  margin: 0;
   overflow: hidden;
 }
 
 #bg #spiner {
-  width: 600px;
+  width: 750px;
   height: 600px;
   position: absolute;
   top: 50%;
@@ -20,39 +12,35 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-color: darkolivegreen;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 #bg #spiner .spinerCell {
-  width: 200px;
+  width: 250px;
   height: 200px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid white;
   position: absolute;
-  left: 50%;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
 }
 
 #bg #spiner #spinerCell1, #bg #spiner #spinerCell2, #bg #spiner #spinerCell3,
 #bg #spiner #spinerCell4, #bg #spiner #spinerCell5, #bg #spiner #spinerCell6,
 #bg #spiner #spinerCell7 {
-  -webkit-transform: translateX(-300px);
-          transform: translateX(-300px);
+  left: 0px;
 }
 
 #bg #spiner #spinerCell8, #bg #spiner #spinerCell9, #bg #spiner #spinerCell10,
 #bg #spiner #spinerCell11, #bg #spiner #spinerCell12, #bg #spiner #spinerCell13,
 #bg #spiner #spinerCell14 {
-  -webkit-transform: translateX(-100px);
-          transform: translateX(-100px);
+  left: 250px;
 }
 
 #bg #spiner #spinerCell15, #bg #spiner #spinerCell16, #bg #spiner #spinerCell17,
 #bg #spiner #spinerCell18, #bg #spiner #spinerCell19, #bg #spiner #spinerCell20,
 #bg #spiner #spinerCell21 {
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px);
+  left: 500px;
 }
 /*# sourceMappingURL=main.css.map */
